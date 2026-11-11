@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b182bdb8b08863444b297e47aebc3530
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 351118
+  packageName: "2D Pixel Character Pack \u2013 Wizard Class + Skill Effects"
+  packageVersion: 1.0
+  assetPath: Assets/RAD_Pixel2D_Characters_Wizard/Sprite/SkillEffect/Effect_21.controller
+  uploadId: 836856

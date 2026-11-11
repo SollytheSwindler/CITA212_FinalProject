@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30e0c16eb5b97c64ca65e0f9801da45c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 351118
+  packageName: "2D Pixel Character Pack \u2013 Wizard Class + Skill Effects"
+  packageVersion: 1.0
+  assetPath: Assets/RAD_Pixel2D_Characters_Wizard/Sprite/Wizard_4/Wizard_4_Idle.anim
+  uploadId: 836856

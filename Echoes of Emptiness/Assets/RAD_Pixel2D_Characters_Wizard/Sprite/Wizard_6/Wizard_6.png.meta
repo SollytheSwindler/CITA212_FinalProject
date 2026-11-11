@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: ad1cb3d30392f0a48b5616eff1370b34
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wizard_6_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 448
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.3936126, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6a35552199df74ebddb0978b08b956
+      internalID: 711319148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 448
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.41459757, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1fc634dc6764a499c34501f92d414c
+      internalID: 1162946639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 448
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.41663095, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4d4a3b61239964f8c32e8e3a12363e
+      internalID: 1913591498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 448
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.39629716, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f2b84fae79093439337ab07c658e54
+      internalID: 1254473506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 448
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37393072, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75156bc36cbf1874e80ff25e74d53499
+      internalID: 1402604124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 448
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37393013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a193e1033bca44cbd2e61cdea41142
+      internalID: 1113214188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 384
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.41283152, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ddb9afb7d5f1a47b0f31da7c651c0c
+      internalID: 215339941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 384
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4160601, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd405a7b6117e49bb5325a1a6bb1fc
+      internalID: -1964103837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 384
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.41283152, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f398d5c0311f146a895ad5fa35955d
+      internalID: 591776279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 384
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.41606024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b072d843bca53e4995eb67900e2dc7b
+      internalID: -1208014693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 384
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.41444573, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d749348b69555408bffc61622c231e
+      internalID: 1840790522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 384
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.41606024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8219755a18d02544a32d3917b1b7b42
+      internalID: 2081482331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 384
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4128318, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a282d6a47b8aeab47bf7083c9e0abc82
+      internalID: 727683207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 384
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.41606024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40a7c16244073545a5638ce9b60d1e5
+      internalID: -1488469634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 295
+        width: 57
+        height: 83
+      alignment: 9
+      pivot: {x: 0.27431944, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49beb1c6179b7564ba265e53cabd61b9
+      internalID: 2035900990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 295
+        width: 55
+        height: 81
+      alignment: 9
+      pivot: {x: 0.28125665, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44b586d9bbb1aa4d91fe8506112c100
+      internalID: -1646153711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 295
+        width: 50
+        height: 77
+      alignment: 9
+      pivot: {x: 0.31305847, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc67c01c25a45545995af3f8902c470
+      internalID: 1453932875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 54
+        height: 82
+      alignment: 9
+      pivot: {x: 0.2862023, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ad07e0a15aba468256e657c3c40da
+      internalID: 1284379375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 295
+        width: 71
+        height: 63
+      alignment: 9
+      pivot: {x: 0.76720804, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3f8d386a12a6488cb1b7a67d74f1a
+      internalID: -1261472616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 295
+        width: 74
+        height: 67
+      alignment: 9
+      pivot: {x: 0.77763575, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaac903e06c51743980b47e0b121acd
+      internalID: -840933998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 295
+        width: 67
+        height: 56
+      alignment: 9
+      pivot: {x: 0.752773, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c305a9a53e718f4794105e1a1f004c6
+      internalID: 2067294674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack1_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 295
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 0.7609473, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc6f0d9de10aa14b8ed8283d848cbd4
+      internalID: -676621717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 192
+        width: 73
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5131524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e341236922cc2aa41b1bae072d56d7cd
+      internalID: 1509614739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 191
+        width: 107
+        height: 80
+      alignment: 9
+      pivot: {x: 0.3890552, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89f94d201589b242bdacb4fe80d0104
+      internalID: 1520018722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_5
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 192
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.26129618, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d9f55f5e6d2445a973fd064ede510
+      internalID: -391322512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 192
+        width: 55
+        height: 59
+      alignment: 9
+      pivot: {x: 0.42858315, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8895af19f770838449d44d3e2589bbf1
+      internalID: -274273439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 192
+        width: 68
+        height: 59
+      alignment: 9
+      pivot: {x: 0.56803244, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d2a9100149f1e4cb05437e0536f7ad
+      internalID: 1345510590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 192
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6013151, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fc83d530aa38248aa32b093e4acc60
+      internalID: 1573119048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 86
+        width: 128
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4582343, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74dfcc3fa64364e9922fef0fe37602
+      internalID: 312908651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 87
+        width: 52
+        height: 71
+      alignment: 9
+      pivot: {x: 0.39719215, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63be8b406a7d60348b1f6054871006b2
+      internalID: -933568264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 86
+        width: 108
+        height: 88
+      alignment: 9
+      pivot: {x: 0.3012512, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6338b153fe88a54eb74c2e930a40b94
+      internalID: -1354571248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_6_Attack2_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 86
+        width: 134
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4081199, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e51036d03fb5742a9d30bdfb55c19a
+      internalID: -910330036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wizard_6_15: 1688447911
+      Wizard_6_16: 253398607
+      Wizard_6_18: -1759496866
+      Wizard_6_21: -908608865
+      Wizard_6_22: -472165198
+      Wizard_6_23: 48446779
+      Wizard_6_24: 1053067922
+      Wizard_6_28: 1125370655
+      Wizard_6_29: -342207494
+      Wizard_6_32: 1735504490
+      Wizard_6_34: 331414999
+      Wizard_6_35: 2051489079
+      Wizard_6_37: -344899313
+      Wizard_6_38: 342452861
+      Wizard_6_40: 1425863395
+      Wizard_6_42: -497234243
+      Wizard_6_44: 1207167635
+      Wizard_6_45: 1687572838
+      Wizard_6_46: 1752909173
+      Wizard_6_47: -265329232
+      Wizard_6_48: 1844609765
+      Wizard_6_49: 1869027582
+      Wizard_6_51: 2088253195
+      Wizard_6_54: 1564922537
+      Wizard_6_56: -1539853985
+      Wizard_6_57: -224526383
+      Wizard_6_58: -199923751
+      Wizard_6_Attack1_0: 1284379375
+      Wizard_6_Attack1_1: 2035900990
+      Wizard_6_Attack1_2: -1646153711
+      Wizard_6_Attack1_3: 1453932875
+      Wizard_6_Attack1_4: 2067294674
+      Wizard_6_Attack1_5: -1261472616
+      Wizard_6_Attack1_6: -840933998
+      Wizard_6_Attack1_7: -676621717
+      Wizard_6_Attack2_0: -274273439
+      Wizard_6_Attack2_1: 1345510590
+      Wizard_6_Attack2_2: 1573119048
+      Wizard_6_Attack2_3: 1509614739
+      Wizard_6_Attack2_4: 1520018722
+      Wizard_6_Attack2_5: -391322512
+      Wizard_6_Attack2_6: -1354571248
+      Wizard_6_Attack2_7: -910330036
+      Wizard_6_Attack2_8: 312908651
+      Wizard_6_Attack2_9: -933568264
+      Wizard_6_Idle_0: 711319148
+      Wizard_6_Idle_1: 1162946639
+      Wizard_6_Idle_2: 1913591498
+      Wizard_6_Idle_3: 1254473506
+      Wizard_6_Idle_4: 1402604124
+      Wizard_6_Idle_5: 1113214188
+      Wizard_6_Walk_0: 215339941
+      Wizard_6_Walk_1: -1964103837
+      Wizard_6_Walk_2: 591776279
+      Wizard_6_Walk_3: -1208014693
+      Wizard_6_Walk_4: 1840790522
+      Wizard_6_Walk_5: 2081482331
+      Wizard_6_Walk_6: 727683207
+      Wizard_6_Walk_7: -1488469634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 351118
+  packageName: "2D Pixel Character Pack \u2013 Wizard Class + Skill Effects"
+  packageVersion: 1.0
+  assetPath: Assets/RAD_Pixel2D_Characters_Wizard/Sprite/Wizard_6/Wizard_6.png
+  uploadId: 836856

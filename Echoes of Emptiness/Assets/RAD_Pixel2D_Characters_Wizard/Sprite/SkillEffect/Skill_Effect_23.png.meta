@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: c76771fe52d919241a9864690c723005
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_Effect_23_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 53
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4454391, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e3db99990320d40a9b25d789364554
+      internalID: 1217972085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 161
+        width: 51
+        height: 90
+      alignment: 9
+      pivot: {x: 0.44329938, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea598fcc6b1e894b9efc33ccf5e1fb1
+      internalID: -1475918553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 163
+        width: 74
+        height: 90
+      alignment: 9
+      pivot: {x: 0.45402652, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3522dfff2eeeb2d4d83f96e3d667b92a
+      internalID: 1466287297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 161
+        width: 72
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4929123, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72064b2be9ccc71438bbef4de6a1a9ee
+      internalID: -2030519980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 163
+        width: 73
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46271756, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a8309adfa37a84d91a2dc0e92c9013
+      internalID: -7487894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 161
+        width: 76
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46642706, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b66c71e3fcf444bf61a4d33dbf3f4
+      internalID: 176496786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_11
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 47
+        width: 7
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93da39ac8062b7447824f7fc3011492c
+      internalID: -538281163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 51
+        width: 75
+        height: 90
+      alignment: 9
+      pivot: {x: 0.48865992, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7b4870fa98c8a43ad53b767c4d7920
+      internalID: 48235080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 48
+        width: 74
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46551988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ff9c58523f9684984dc6e971a9a54e
+      internalID: -88658867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 52
+        width: 75
+        height: 90
+      alignment: 9
+      pivot: {x: 0.45917562, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b8149fc0aa07459e8cd065d19ef9a
+      internalID: -545705900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 51
+        width: 52
+        height: 90
+      alignment: 9
+      pivot: {x: 0.41494927, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c91962a4b3068345843a3b82d852d92
+      internalID: -898886470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Effect_23_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 49
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4518046, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78eddcdd580734a9cbebfbf89fb8aa
+      internalID: -672745340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_Effect_23_0: 1217972085
+      Skill_Effect_23_1: -1475918553
+      Skill_Effect_23_10: -672745340
+      Skill_Effect_23_11: -538281163
+      Skill_Effect_23_13: 1620020456
+      Skill_Effect_23_14: -718333384
+      Skill_Effect_23_15: 1118256511
+      Skill_Effect_23_16: 1784933274
+      Skill_Effect_23_17: 1455975778
+      Skill_Effect_23_2: 1466287297
+      Skill_Effect_23_24: -233495924
+      Skill_Effect_23_25: 728309907
+      Skill_Effect_23_3: -2030519980
+      Skill_Effect_23_4: -7487894
+      Skill_Effect_23_5: 176496786
+      Skill_Effect_23_6: 48235080
+      Skill_Effect_23_7: -88658867
+      Skill_Effect_23_8: -545705900
+      Skill_Effect_23_9: -898886470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 351118
+  packageName: "2D Pixel Character Pack \u2013 Wizard Class + Skill Effects"
+  packageVersion: 1.0
+  assetPath: Assets/RAD_Pixel2D_Characters_Wizard/Sprite/SkillEffect/Skill_Effect_23.png
+  uploadId: 836856
