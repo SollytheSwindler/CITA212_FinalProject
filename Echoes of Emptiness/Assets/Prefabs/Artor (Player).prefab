@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9179654061073093581}
   - component: {fileID: 4404270294808426270}
   - component: {fileID: 4718812660000408644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Artor (Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1973432111
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1464606568, guid: 6708c9e4be4095543b06c5aa1d08f304, type: 3}
@@ -254,7 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5066870971090118153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Catalyst
   m_TagString: Untagged
   m_Icon: {fileID: 0}

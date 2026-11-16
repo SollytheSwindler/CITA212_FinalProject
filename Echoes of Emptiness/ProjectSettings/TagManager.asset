@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -11,12 +12,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Platforms
+  - Interactables
+  - Boss
+  - Spells
   - 
   - 
   - 
@@ -41,3 +42,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4242998013
+    locked: 0
+  - name: Platforms
+    uniqueID: 1181029017
+    locked: 0
+  - name: Interactables
+    uniqueID: 3560126707
+    locked: 0
+  - name: Spells
+    uniqueID: 3718229615
+    locked: 0
+  - name: Boss
+    uniqueID: 3322787117
+    locked: 0
+  - name: Player
+    uniqueID: 1973432111
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
