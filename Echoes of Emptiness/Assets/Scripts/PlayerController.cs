@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
-        Debug.Log(moveInput);
     }
 
     void Walk()
@@ -50,5 +49,10 @@ public class PlayerController : MonoBehaviour
         {
             transform.localScale = new Vector2(-Mathf.Sign(rigidbody.linearVelocity.x), 1f);
         }
+    }
+
+    void OnAttack(InputValue value)
+    {
+        
     }
 }
