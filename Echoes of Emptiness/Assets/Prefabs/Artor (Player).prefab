@@ -244,6 +244,7 @@ MonoBehaviour:
   animator: {fileID: 593192471555600616}
   attack: {fileID: 4348343064059409428, guid: 894276e3c625ba541af060c82fcabb61, type: 3}
   catalyst: {fileID: 5066870971090118153}
+  cooldown: 1
 --- !u!1 &5917395352692269614
 GameObject:
   m_ObjectHideFlags: 0

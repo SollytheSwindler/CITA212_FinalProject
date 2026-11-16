@@ -373,10 +373,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Artor (Player)
       objectReference: {fileID: 0}
-    - target: {fileID: 4718812660000408644, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
-      propertyPath: cooldown
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7553784900510469331, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.23725
