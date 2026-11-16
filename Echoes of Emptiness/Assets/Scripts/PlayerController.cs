@@ -4,8 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 10f;
-    [SerializeField] GameObject attack;
-    [SerializeField] Transform catalyst;
+    [SerializeField] PlayerCombat playerCombat;
 
     Vector2 moveInput;
     Rigidbody2D rigidbody;
@@ -53,6 +52,6 @@ public class PlayerController : MonoBehaviour
 
     void OnAttack(InputValue value)
     {
-        
+        playerCombat.Attack();
     }
 }

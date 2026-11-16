@@ -17,6 +17,7 @@ public class SpellAttack : MonoBehaviour
     void Update()
     {
         rigidbody.linearVelocity = new Vector2(xSpeed, 0f);
+        transform.localScale = new Vector2(-Mathf.Sign(rigidbody.linearVelocity.x), 1f);
     }
 
     void OnTriggerEnter2D(Collider2D other)

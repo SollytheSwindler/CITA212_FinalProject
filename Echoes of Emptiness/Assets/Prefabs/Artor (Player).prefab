@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2828325689933827954}
   - component: {fileID: 9179654061073093581}
   - component: {fileID: 4404270294808426270}
+  - component: {fileID: 4718812660000408644}
   m_Layer: 0
   m_Name: Artor (Player)
   m_TagString: Untagged
@@ -133,8 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 5
-  attack: {fileID: 4348343064059409428, guid: 894276e3c625ba541af060c82fcabb61, type: 3}
-  catalyst: {fileID: 5066870971090118153}
+  playerCombat: {fileID: 4718812660000408644}
 --- !u!50 &2828325689933827954
 Rigidbody2D:
   serializedVersion: 5
@@ -229,6 +229,21 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &4718812660000408644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343068225110832296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2befc30bdae674b919068830375fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  animator: {fileID: 593192471555600616}
+  attack: {fileID: 4348343064059409428, guid: 894276e3c625ba541af060c82fcabb61, type: 3}
+  catalyst: {fileID: 5066870971090118153}
 --- !u!1 &5917395352692269614
 GameObject:
   m_ObjectHideFlags: 0
