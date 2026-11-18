@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6787823206959117905}
   - component: {fileID: 8149981377366632857}
   - component: {fileID: 9204255455526788564}
+  - component: {fileID: 7842034602397789994}
   m_Layer: 10
   m_Name: Contempt (Boss)
   m_TagString: Boss
@@ -153,3 +154,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0.04212773, y: 0.4418702}
   m_Size: {x: 0.5424707, y: 1.0270073}
   m_Direction: 0
+--- !u!114 &7842034602397789994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836387641453646499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891230e4d5524694290ae251304efbfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  health: 10000
