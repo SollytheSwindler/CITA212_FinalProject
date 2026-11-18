@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class SpellAttack : MonoBehaviour
@@ -5,12 +6,14 @@ public class SpellAttack : MonoBehaviour
     [SerializeField] float spellAttackSpeed = 20f;
     Rigidbody2D rigidbody;
     PlayerController player;
+    Animator animator;
     float xSpeed;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         player = FindAnyObjectByType<PlayerController>();
+        animator = GetComponent<Animator>();
         xSpeed = -player.transform.localScale.x * spellAttackSpeed;
     }
 
@@ -24,12 +27,23 @@ public class SpellAttack : MonoBehaviour
     {
         if (other.CompareTag("Boss"))
         {
-            Destroy(gameObject);
+            Hit();
         }
-        Destroy(gameObject);
+        Hit();
     }
 
     void OnCollisionEnter2D(Collision2D other)
+    {
+        Hit();
+    }
+
+    void Hit()
+    {
+        animator.SetBool("hasHit", true);
+        xSpeed = 0f;
+    }
+
+    void Dissipate()
     {
         Destroy(gameObject);
     }
