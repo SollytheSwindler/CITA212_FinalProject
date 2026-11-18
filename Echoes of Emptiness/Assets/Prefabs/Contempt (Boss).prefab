@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7842034602397789994}
   - component: {fileID: 1042465856911722917}
   - component: {fileID: 1913790117211146677}
+  - component: {fileID: 7362648402645662571}
   m_Layer: 10
   m_Name: Contempt (Boss)
   m_TagString: Boss
@@ -182,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
   moveSpeed: 2
-  bossCombat: {fileID: 0}
+  bossCombat: {fileID: 7362648402645662571}
   player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
 --- !u!50 &1913790117211146677
 Rigidbody2D:
@@ -211,3 +212,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7362648402645662571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836387641453646499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c45c8a37d487a4a88efc363acfd73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossCombat
