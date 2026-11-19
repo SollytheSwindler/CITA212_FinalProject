@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 1f;
     [SerializeField] BossCombat bossCombat;
     [SerializeField] GameObject player;
 
@@ -17,30 +17,40 @@ public class BossController : MonoBehaviour
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = FindAnyObjectByType<GameObject>();
     }
 
     void Update()
     {
         Walk();
-        FlipSprite();
+        FacePlayer();
+        bossCombat.Attack();
     }
 
     void Walk()
     {
-        Vector2 bossVelocity = new Vector2(0f, Random.Range(-1, 1) * moveSpeed);
-        rigidbody.linearVelocity = bossVelocity;
+        rigidbody.linearVelocity = new Vector2(0f, moveSpeed);
 
-        bool bossHasSpeed = Mathf.Abs(rigidbody.linearVelocity.x) > Mathf.Epsilon
-            || Mathf.Abs(rigidbody.linearVelocity.y) > Mathf.Epsilon;
+        bool bossHasSpeed = Mathf.Abs(rigidbody.linearVelocity.y) > Mathf.Epsilon;
         animator.SetBool("isWalking", bossHasSpeed);
     }
 
-    void FlipSprite()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        bool isFacingPlayer = transform.position.x > player.transform.position.x;
-        if (!isFacingPlayer)
+        moveSpeed = -moveSpeed;
+    }
+
+    void FacePlayer()
+    {
+        bool playerToLeft = transform.position.x > player.transform.position.x;
+        bool playerToRight = transform.position.x < player.transform.position.x;
+        if (playerToLeft)
         {
-            transform.localScale = new Vector2(-Mathf.Sign(rigidbody.linearVelocity.x), 1f);
+            transform.localScale = new Vector2(1f, 1f);
+        }
+        else if (playerToRight)
+        {
+            transform.localScale = new Vector2(-1f, 1f);
         }
     }
 }

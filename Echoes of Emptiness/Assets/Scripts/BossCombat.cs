@@ -2,15 +2,38 @@ using UnityEngine;
 
 public class BossCombat : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] Animator animator;
+    [SerializeField] GameObject attack;
+    [SerializeField] GameObject player;
+
+    [SerializeField] float cooldown = 10f;
+    float timer;
+
     void Start()
     {
-        
+        player = FindAnyObjectByType<GameObject>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
+    }
+
+    public void Attack()
+    {
+        if (timer <= 0)
+        {
+            animator.SetBool("isAttacking", true);
+            timer = cooldown;
+        }
+    }
+
+    public void FinishAttacking()
+    {
+        animator.SetBool("isAttacking", false);
+        Instantiate(attack, player.transform.position, transform.rotation);
     }
 }

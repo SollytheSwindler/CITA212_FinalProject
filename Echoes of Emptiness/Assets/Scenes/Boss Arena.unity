@@ -798,10 +798,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1042465856911722917, guid: 9a6f16cfa8023d94bae26fd9484853d5, type: 3}
-      propertyPath: moveSpeed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 1836387641453646499, guid: 9a6f16cfa8023d94bae26fd9484853d5, type: 3}
       propertyPath: m_Name
       value: Contempt (Boss)

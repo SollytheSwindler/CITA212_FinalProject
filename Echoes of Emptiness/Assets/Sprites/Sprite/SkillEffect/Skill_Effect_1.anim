@@ -94,4 +94,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1.35
+    functionName: Dissipate
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 2a4b255896af5e74f9ad76a5448a2456, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 1

@@ -6,7 +6,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] GameObject attack;
     [SerializeField] Transform catalyst;
 
-    [SerializeField] float cooldown = 1;
+    [SerializeField] float cooldown = 1f;
     float timer;
 
     void Update()

@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1836387641453646499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.19, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c411daf7b6e074ebcdef9425a84d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
-  moveSpeed: 2
+  moveSpeed: 1
   bossCombat: {fileID: 7362648402645662571}
   player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
 --- !u!50 &1913790117211146677
@@ -210,7 +210,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &7362648402645662571
 MonoBehaviour:
@@ -224,3 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6c45c8a37d487a4a88efc363acfd73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossCombat
+  animator: {fileID: 8149981377366632857}
+  attack: {fileID: 5103738842155918992, guid: fe8c72945365dc543a69941e1d115144, type: 3}
+  player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
+  cooldown: 10
