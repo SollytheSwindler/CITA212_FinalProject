@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7908900690243060168}
   - component: {fileID: 5302329127393473932}
   - component: {fileID: -691365294613007753}
-  - component: {fileID: -5450651838263749520}
   - component: {fileID: 6782280819618995831}
   - component: {fileID: 894230077297879991}
+  - component: {fileID: 5947150479358904839}
   m_Layer: 0
   m_Name: Boss Attack (Lightning)
   m_TagString: Untagged
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1951273257
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -995893662, guid: 818dc78d11132244e9eafc57f7b5a26b, type: 3}
@@ -132,19 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageDealer
   damage: 50
---- !u!114 &-5450651838263749520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5103738842155918992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4b255896af5e74f9ad76a5448a2456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossAttack
-  player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
 --- !u!50 &6782280819618995831
 Rigidbody2D:
   serializedVersion: 5
@@ -202,10 +189,23 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &5947150479358904839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5103738842155918992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b255896af5e74f9ad76a5448a2456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack
+  playerTransform: {fileID: 7553784900510469331, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}

@@ -4,14 +4,14 @@ public class BossCombat : MonoBehaviour
 {
     [SerializeField] Animator animator;
     [SerializeField] GameObject attack;
-    [SerializeField] GameObject player;
+    [SerializeField] Transform playerTransform;
 
-    [SerializeField] float cooldown = 10f;
+    [SerializeField] float cooldown = 5f;
     float timer;
 
     void Start()
     {
-        player = FindAnyObjectByType<GameObject>();
+        timer = cooldown;
     }
 
     void Update()
@@ -34,6 +34,6 @@ public class BossCombat : MonoBehaviour
     public void FinishAttacking()
     {
         animator.SetBool("isAttacking", false);
-        Instantiate(attack, player.transform.position, transform.rotation);
+        Instantiate(attack, playerTransform.position, transform.rotation);
     }
 }

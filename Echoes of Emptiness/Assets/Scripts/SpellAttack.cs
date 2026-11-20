@@ -8,6 +8,7 @@ public class SpellAttack : MonoBehaviour
     PlayerController player;
     Animator animator;
     float xSpeed;
+    float timer;
 
     void Start()
     {
@@ -15,12 +16,18 @@ public class SpellAttack : MonoBehaviour
         player = FindAnyObjectByType<PlayerController>();
         animator = GetComponent<Animator>();
         xSpeed = -player.transform.localScale.x * spellAttackSpeed;
+        timer = 5;
     }
 
     void Update()
     {
         rigidbody.linearVelocity = new Vector2(xSpeed, 0f);
         transform.localScale = new Vector2(-Mathf.Sign(rigidbody.linearVelocity.x), 1f);
+        timer -= Time.deltaTime;
+        if (timer <= 0)
+        {
+            Dissipate();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

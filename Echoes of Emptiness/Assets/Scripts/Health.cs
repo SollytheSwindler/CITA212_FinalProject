@@ -3,6 +3,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] int health = 100;
+
     void Start()
     {
         

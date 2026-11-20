@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
-    [SerializeField] GameObject player;
+    [SerializeField] Transform playerTransform;
     Rigidbody2D rigidbody;
     BossController boss;
     Animator animator;
@@ -12,12 +12,18 @@ public class BossAttack : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         boss = FindAnyObjectByType<BossController>();
         animator = GetComponent<Animator>();
-        player = FindAnyObjectByType<GameObject>();
     }
 
     void Update()
     {
-        transform.position = player.transform.position;
+        if (playerTransform != null)
+        {
+            transform.position = playerTransform.position;
+        }
+        else
+        {
+            Dissipate();
+        }
     }
 
     void Dissipate()

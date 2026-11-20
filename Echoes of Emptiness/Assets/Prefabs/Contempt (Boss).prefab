@@ -226,5 +226,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossCombat
   animator: {fileID: 8149981377366632857}
   attack: {fileID: 5103738842155918992, guid: fe8c72945365dc543a69941e1d115144, type: 3}
-  player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
-  cooldown: 10
+  playerTransform: {fileID: 7553784900510469331, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
+  cooldown: 5
