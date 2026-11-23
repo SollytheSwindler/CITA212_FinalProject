@@ -35,7 +35,7 @@ public class BossController : MonoBehaviour
         animator.SetBool("isWalking", bossHasSpeed);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         moveSpeed = -moveSpeed;
     }
