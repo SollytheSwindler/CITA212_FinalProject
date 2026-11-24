@@ -24,7 +24,7 @@ public class BossCombat : MonoBehaviour
 
     public void Attack()
     {
-        if (timer <= 0)
+        if (timer <= 0 && player != null)
         {
             animator.SetBool("isAttacking", true);
             timer = cooldown;

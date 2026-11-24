@@ -208,4 +208,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4b255896af5e74f9ad76a5448a2456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAttack
-  player: {fileID: 3343068225110832296, guid: d2814104ce4b1304f8b92affd14b3348, type: 3}
+  player: {fileID: 0}
